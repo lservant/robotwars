@@ -14,6 +14,7 @@
 		62E3A32419397BE400BD3F0F /* RobotAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E3A32319397BE400BD3F0F /* RobotAction.m */; };
 		62E3A330193D3F3B00BD3F0F /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E3A32F193D3F3B00BD3F0F /* Bullet.m */; };
 		650C0884196345B1005F126C /* CarpoolBot.m in Sources */ = {isa = PBXBuildFile; fileRef = 650C0883196345B1005F126C /* CarpoolBot.m */; };
+		650C0888196366E4005F126C /* AdvancedCarpoolBot.m in Sources */ = {isa = PBXBuildFile; fileRef = 650C0887196366E4005F126C /* AdvancedCarpoolBot.m */; };
 		65CC915A196141CF00838899 /* TurretRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CC9159196141CF00838899 /* TurretRobot.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -80,6 +81,8 @@
 		62E3A32F193D3F3B00BD3F0F /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bullet.m; path = Source/Bullet.m; sourceTree = "<group>"; };
 		650C0882196345B1005F126C /* CarpoolBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarpoolBot.h; path = Source/Robot/CarpoolBot.h; sourceTree = "<group>"; };
 		650C0883196345B1005F126C /* CarpoolBot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarpoolBot.m; path = Source/Robot/CarpoolBot.m; sourceTree = "<group>"; };
+		650C0886196366E4005F126C /* AdvancedCarpoolBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdvancedCarpoolBot.h; path = Source/Robot/AdvancedCarpoolBot.h; sourceTree = "<group>"; };
+		650C0887196366E4005F126C /* AdvancedCarpoolBot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdvancedCarpoolBot.m; path = Source/Robot/AdvancedCarpoolBot.m; sourceTree = "<group>"; };
 		65CC9158196141CF00838899 /* TurretRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TurretRobot.h; path = Source/Robot/TurretRobot.h; sourceTree = "<group>"; };
 		65CC9159196141CF00838899 /* TurretRobot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TurretRobot.m; path = Source/Robot/TurretRobot.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 		624A3882193E7AF90054705C /* Robots */ = {
 			isa = PBXGroup;
 			children = (
+				650C0886196366E4005F126C /* AdvancedCarpoolBot.h */,
+				650C0887196366E4005F126C /* AdvancedCarpoolBot.m */,
 				65CC9158196141CF00838899 /* TurretRobot.h */,
 				65CC9159196141CF00838899 /* TurretRobot.m */,
 				650C0882196345B1005F126C /* CarpoolBot.h */,
@@ -397,6 +402,7 @@
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				650C0888196366E4005F126C /* AdvancedCarpoolBot.m in Sources */,
 				65CC915A196141CF00838899 /* TurretRobot.m in Sources */,
 				62C4F430194141DE0047553C /* Helpers.m in Sources */,
 				62E3A32419397BE400BD3F0F /* RobotAction.m in Sources */,
