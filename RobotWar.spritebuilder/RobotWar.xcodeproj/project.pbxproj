@@ -13,9 +13,9 @@
 		62C4F430194141DE0047553C /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C4F42F194141DE0047553C /* Helpers.m */; };
 		62E3A32419397BE400BD3F0F /* RobotAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E3A32319397BE400BD3F0F /* RobotAction.m */; };
 		62E3A330193D3F3B00BD3F0F /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E3A32F193D3F3B00BD3F0F /* Bullet.m */; };
-		650C0884196345B1005F126C /* CarpoolBot.m in Sources */ = {isa = PBXBuildFile; fileRef = 650C0883196345B1005F126C /* CarpoolBot.m */; };
 		650C0888196366E4005F126C /* AdvancedCarpoolBot.m in Sources */ = {isa = PBXBuildFile; fileRef = 650C0887196366E4005F126C /* AdvancedCarpoolBot.m */; };
 		65CC915A196141CF00838899 /* TurretRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CC9159196141CF00838899 /* TurretRobot.m */; };
+		65F161011964BD2200532CB7 /* CarpoolBot.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F161001964BD2200532CB7 /* CarpoolBot.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -79,12 +79,12 @@
 		62E3A32319397BE400BD3F0F /* RobotAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobotAction.m; path = Source/RobotAction.m; sourceTree = "<group>"; };
 		62E3A32E193D3F3B00BD3F0F /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bullet.h; path = Source/Bullet.h; sourceTree = "<group>"; };
 		62E3A32F193D3F3B00BD3F0F /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bullet.m; path = Source/Bullet.m; sourceTree = "<group>"; };
-		650C0882196345B1005F126C /* CarpoolBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarpoolBot.h; path = Source/Robot/CarpoolBot.h; sourceTree = "<group>"; };
-		650C0883196345B1005F126C /* CarpoolBot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarpoolBot.m; path = Source/Robot/CarpoolBot.m; sourceTree = "<group>"; };
 		650C0886196366E4005F126C /* AdvancedCarpoolBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdvancedCarpoolBot.h; path = Source/Robot/AdvancedCarpoolBot.h; sourceTree = "<group>"; };
 		650C0887196366E4005F126C /* AdvancedCarpoolBot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdvancedCarpoolBot.m; path = Source/Robot/AdvancedCarpoolBot.m; sourceTree = "<group>"; };
 		65CC9158196141CF00838899 /* TurretRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TurretRobot.h; path = Source/Robot/TurretRobot.h; sourceTree = "<group>"; };
 		65CC9159196141CF00838899 /* TurretRobot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TurretRobot.m; path = Source/Robot/TurretRobot.m; sourceTree = "<group>"; };
+		65F160FF1964BD2200532CB7 /* CarpoolBot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarpoolBot.h; path = Source/Robot/CarpoolBot.h; sourceTree = "<group>"; };
+		65F161001964BD2200532CB7 /* CarpoolBot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarpoolBot.m; path = Source/Robot/CarpoolBot.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -154,8 +154,8 @@
 				650C0887196366E4005F126C /* AdvancedCarpoolBot.m */,
 				65CC9158196141CF00838899 /* TurretRobot.h */,
 				65CC9159196141CF00838899 /* TurretRobot.m */,
-				650C0882196345B1005F126C /* CarpoolBot.h */,
-				650C0883196345B1005F126C /* CarpoolBot.m */,
+				65F160FF1964BD2200532CB7 /* CarpoolBot.h */,
+				65F161001964BD2200532CB7 /* CarpoolBot.m */,
 				BC7636F6195BBCAA0070222B /* AdvancedRobot.h */,
 				BC7636F7195BBCAA0070222B /* AdvancedRobot.m */,
 				BC7636F8195BBCAA0070222B /* SimpleRobot.h */,
@@ -398,8 +398,8 @@
 				629FCFF4193E71C300896E8C /* GameOverScene.m in Sources */,
 				6244629A1937DDD300895F2D /* Robot.m in Sources */,
 				BC7636FB195BBCAA0070222B /* SimpleRobot.m in Sources */,
-				650C0884196345B1005F126C /* CarpoolBot.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				65F161011964BD2200532CB7 /* CarpoolBot.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				650C0888196366E4005F126C /* AdvancedCarpoolBot.m in Sources */,
